@@ -5,7 +5,7 @@ require_once 'header.php';
     <form id="form"> <!-- Esse id como form faz referencia trabalhando com o Jquery -->
     <div class="row">     
         <div class="col-md-2">
-            <input type="text" readonly class="form-control" id="name" name="name" placeholder="Sigla"> 
+            <input type="text" class="form-control" id="name" name="name" placeholder="Sigla"> 
         </div>                                                        <!-- O name = "name" vai fazer refencia com o form data do js -->
         <div class="col-md-2">
             <button type="submit" class="btn btn-primary" style="margin: 3px">Salvar</button>
@@ -97,11 +97,10 @@ require_once 'header.php';
             $('#message').removeClass() //Caso tenha alguma class, ele irá remover no caso se eu quiser colocar uma class de erro eu posso adicionar via script uma class text-danger, que vai mostrar o texto em vermelho
             
             if (message.trim() == "Salvo com Sucesso") { //A mensagem irá retornar caso foi com sucesso, a mensagem "Salvo com Sucesso então ele inseriu
-                $('#message').addClass('text-sucess')//Irá exibir na caixa de mensagem, o texto em verde dizendo que houve sucesso
+                $('#message').addClass('text-success')//Irá exibir na caixa de mensagem, o texto em verde dizendo que houve sucesso
                 $('#message').text(message) //O "Salvo com Sucesso" é exibido aqui
                 //$('#btn-fechar').click(); funcionaria um botão caso existisse e chamaria ele via script
                 //list();          
-
             } else {
                 $('#message').addClass('text-danger')
                 $('#message').text(message)
