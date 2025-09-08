@@ -1,9 +1,3 @@
-Perfeito 🚀 Vou preparar um **README.md** bem completo e profissional para você colocar no GitHub. Ele vai servir tanto para documentar seu projeto, quanto para mostrar suas habilidades quando alguém acessar seu repositório.
-
-Aqui está:
-
----
-
 # 📌 CRUD com PHP, MySQL, JavaScript, jQuery, AJAX e Bootstrap 5
 
 ## 📖 Sobre o Projeto
