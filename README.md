@@ -145,4 +145,3 @@ Sinta-se à vontade para abrir **issues** ou enviar **pull requests** com melhor
 
 ---
 
-👉 Quer que eu já monte esse **README.md em markdown** formatado pronto para colar no GitHub (com títulos, listas e tabelas bonitinhas), ou prefere que eu deixe só esse texto como rascunho?
